@@ -85,4 +85,5 @@ h3 {
     position: relative;
     left: -7px;
     content: "✓";
+    line-height: 0; /* Résolution du problème d'équivalence de taille des symboles UTF-8 */
 }
